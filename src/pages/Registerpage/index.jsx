@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./stylemodule.css";
+import styles from "./styles.module.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
