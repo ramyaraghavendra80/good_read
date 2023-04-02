@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 const Category = (props) => {
-  const { catId, catName } = props.data;
+  const { catName } = props.data;
   return (
     <div class="col-sm-3">
       <Link to='/book'>

@@ -5,6 +5,7 @@ import Errorpage from "./pages/Errorpage";
 import Homepage from "./pages/Homepage";
 import Loginpage from "./pages/Loginpage";
 import Registerpage from "./pages/Registerpage";
+import Bookdetailspage from "./pages/Bookdetailspage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/register" element={<Registerpage />} />
         <Route path="/book" element={<Bookpage />} />
-        <Route path="*" element={<Errorpage />} />
+        <Route path="/bookdeatails" element={<Bookdetailspage />} />
+        {/* <Route path="*" element={<Errorpage />} /> */}
       </Routes>
     </Router>
   );

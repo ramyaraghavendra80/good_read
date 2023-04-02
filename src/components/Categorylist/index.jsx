@@ -16,6 +16,7 @@ const CategoryList = () => {
             items.map((category) => <Category data={ category } />)
         }
       </div>
+      <hr className="my-4" />
     </div>
   );
 };
