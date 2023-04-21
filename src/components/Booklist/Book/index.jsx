@@ -8,7 +8,7 @@ const Book = (props) => {
           <div class="card-body">
             <h5 class="card-title">{title}</h5>
             <p class="card-text"></p>
-            <Link to='/bookdetails' class="btn btn-dark btn-block">
+            <Link to='/booksdetailspage' class="btn btn-dark btn-block">
               Show Details
             </Link>
           </div>

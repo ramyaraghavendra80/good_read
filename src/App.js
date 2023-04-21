@@ -5,10 +5,14 @@ import Errorpage from "./pages/Errorpage";
 import Homepage from "./pages/Homepage";
 import Loginpage from "./pages/Loginpage";
 import Registerpage from "./pages/Registerpage";
-import Bookdetailspage from "./pages/Bookdetailspage";
+import Booksdetailspage from "./pages/Booksdetailspage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+
+  
+    
+
   return (
     <Router>
       <Routes>
@@ -18,8 +22,8 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/register" element={<Registerpage />} />
         <Route path="/book" element={<Bookpage />} />
-        <Route path="/bookdeatails" element={<Bookdetailspage />} />
-        {/* <Route path="*" element={<Errorpage />} /> */}
+        <Route path="/booksdetailspage" element={<Booksdetailspage/>} />
+        <Route path="*" element={<Errorpage />} />
       </Routes>
     </Router>
   );
